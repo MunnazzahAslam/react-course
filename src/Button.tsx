@@ -1,7 +1,17 @@
 function Button() {
+    const styles = {
+        fontFamily:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+        backgroundColor: "rgb(21, 123, 196)",
+        color: 'white',
+        border: 'none',
+        cursor: 'pointer',
+        padding: "10px 20px",
+        borderRadius: "5px",
+        marginBottom: "10px",
+    }
     return(
-        <button className="card-btn">View More</button>
+        <button style={styles}>View More</button>
     );
-}
+};
 
 export default Button;
