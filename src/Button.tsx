@@ -9,8 +9,17 @@ function Button() {
         borderRadius: "5px",
         marginBottom: "10px",
     }
+
+    let count = 0;
+    const handleClick = (e) => {
+        console.log(e);
+        e.target.textContent = 'Clicked';
+        count++;
+        console.log(`Button clicked ${count} times`);
+    }
+
     return(
-        <button style={styles}>View More</button>
+        <button onClick={(e) => handleClick(e)} style={styles}>View More</button>
     );
 };
 
