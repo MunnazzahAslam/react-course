@@ -4,11 +4,21 @@
 // import Input from "./Input";
 // import TodoList from "./Todo-list";
 // import List from "./List";
-import Window from "./Window";
+// import ComponentA from "./UseContexts/ComponentA";
+// import UseRef from "./UseRef";
+// import DigitalClock from "./DigitalClock";
+// import Window from "./Window";
+
+import Stopwatch from "./Stopwatch";
+
 function App() {
   return (
     <>
-      <Window/>
+      <Stopwatch />
+      {/* <UseRef /> */}
+      {/* <ComponentA /> */}
+      {/* <DigitalClock /> */}
+      {/* <Window/> */}
       {/* <TodoList /> */}
       {/* <ColorPicker /> */}
       {/* <Input /> */}

@@ -16,7 +16,16 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f8f8f8;
+    /* background-color: rgb(0, 0, 0); */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .color-picker {
@@ -105,3 +114,19 @@ li {
     flex: 1;
 }
 
+.clock-container {
+    width: 100vw;
+}
+
+.clock {
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    text-align: center;
+    font-family: monospace;
+    margin: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
