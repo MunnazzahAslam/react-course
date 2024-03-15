@@ -1,13 +1,16 @@
-import Card from "./Card/Card";
-import ColorPicker from "./ColorPicker";
-import Counter from "./Counter";
-import Input from "./Input";
+// import Card from "./Card/Card";
+// import ColorPicker from "./ColorPicker";
+// import Counter from "./Counter";
+// import Input from "./Input";
+// import TodoList from "./Todo-list";
 // import List from "./List";
-
+import Window from "./Window";
 function App() {
   return (
     <>
-      <ColorPicker />
+      <Window/>
+      {/* <TodoList /> */}
+      {/* <ColorPicker /> */}
       {/* <Input /> */}
       {/* <Counter /> */}
       {/* <List/> */}

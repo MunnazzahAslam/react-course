@@ -56,6 +56,52 @@ input[type=color] {
     border-radius: 10px;
 }
 
+.todo-list {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+h1 {
+    font-size: 4rem;
+}
 
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+}
+
+input[type="text"]{
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(220, 220, 220);
+}
+
+ul {
+    margin-top: 20px;
+    padding: 0;
+}
+
+li {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(221, 221, 221);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.text {
+    flex: 1;
+}
 
